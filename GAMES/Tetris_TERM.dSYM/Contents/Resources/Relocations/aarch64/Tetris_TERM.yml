@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '../GAMES/Tetris_TERM'
+relocations:     []
+...
