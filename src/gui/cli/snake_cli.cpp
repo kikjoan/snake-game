@@ -10,7 +10,7 @@ void snake_cli::sleep_milli(int milliseconds) {
   struct timespec ts;
   ts.tv_sec = 0;
   ts.tv_nsec = milliseconds * 1000 * 1000;
-  clock_nanosleep(1, CLOCK_MONOTONIC, &ts, NULL);
+  //clock_nanosleep(1, CLOCK_MONOTONIC, &ts, NULL);
 }
 
 void snake_cli::display_field(WINDOW *win, snake_model::GameInfo_t game) {
